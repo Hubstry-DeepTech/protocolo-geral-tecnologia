@@ -338,10 +338,60 @@ body:not(.show-pt):not(.show-en):not(.show-es) [lang="es"]{display:none!importan
 .price-card.outline .cta-btn:hover{background:var(--hubstry-blue);color:#fff}
 .pricing-note{font-size:.8rem;color:var(--hubstry-gray);margin-top:1.4rem;text-align:center;font-style:italic}
 
+/* ===== CULTURE MANIFESTO — Bildung H2Hcy (Direction B) ===== */
+.manifesto{
+  background:linear-gradient(165deg,#0B1D3A 0%,#060c19 100%);
+  color:#dbe3ef;padding:6rem 2rem;
+}
+.manifesto-inner{max-width:720px;margin:0 auto}
+.manifesto-kicker{
+  font-size:.72rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+  color:var(--hubstry-gold);opacity:.9;margin-bottom:1.8rem;
+}
+.manifesto h2{
+  font-family:Georgia,'Times New Roman',serif;color:#fff;font-weight:600;
+  font-size:2.7rem;line-height:1.12;letter-spacing:.4px;margin-bottom:1.1rem;
+}
+.manifesto h2 sup{font-size:.4em;color:var(--hubstry-gold);font-weight:600;letter-spacing:0}
+.manifesto-dek{
+  font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.15rem;
+  color:#9fb0c8;margin-bottom:2.4rem;padding-bottom:2.4rem;
+  border-bottom:1px solid rgba(212,168,67,.28);
+}
+.manifesto-prose p{
+  font-family:Georgia,'Times New Roman',serif;font-size:1.1rem;line-height:1.78;
+  color:#d2dbe9;margin-bottom:1.4rem;
+}
+.manifesto-prose em{color:#fff;font-style:italic}
+.manifesto-quote{margin:3rem 0;padding:2rem 0;border-top:1px solid rgba(212,168,67,.35);border-bottom:1px solid rgba(212,168,67,.35)}
+.manifesto-quote blockquote{
+  font-family:Georgia,'Times New Roman',serif;font-size:1.3rem;line-height:1.6;
+  color:#f2d699;font-style:italic;
+}
+.manifesto-quote cite{
+  display:block;margin-top:1.1rem;font-family:'Segoe UI',Arial,sans-serif;font-style:normal;
+  font-size:.74rem;letter-spacing:2px;text-transform:uppercase;color:#7e90aa;
+}
+.manifesto-coherence{
+  font-family:Georgia,'Times New Roman',serif;font-size:1.22rem;line-height:1.5;
+  color:#fff;margin:2.6rem 0 0;
+}
+.manifesto-lineage{
+  margin-top:2.8rem;padding-top:1.6rem;border-top:1px solid rgba(255,255,255,.1);
+  font-size:.82rem;line-height:1.85;color:#8395b0;
+}
+.manifesto-lineage strong{color:#aab8cc;font-weight:600}
+.manifesto-lineage abbr{text-decoration:none;border-bottom:1px dotted rgba(255,255,255,.3);cursor:help}
+.manifesto-ethic{margin-top:1.3rem;font-size:.92rem;line-height:1.6;color:#9fb0c8;font-style:italic}
+
 /* ===== RESPONSIVE ===== */
 @media(max-width:768px){
   .layer-grid,.ip-layers,.pricing-grid{grid-template-columns:1fr}
   .hero h1{font-size:2rem}
+  .manifesto{padding:4rem 1.5rem}
+  .manifesto h2{font-size:2.05rem}
+  .manifesto-prose p{font-size:1.04rem}
+  .manifesto-quote blockquote{font-size:1.12rem}
   .dimensions-grid{grid-template-columns:1fr}
   .site-header{flex-wrap:wrap;gap:.5rem;padding:1rem}
   .nav-links{gap:.8rem}
@@ -383,6 +433,51 @@ body:not(.show-pt):not(.show-en):not(.show-es) [lang="es"]{display:none!importan
   <a href="#quiz" class="cta-btn" lang="pt-BR">Iniciar avaliação</a>
   <a href="#quiz" class="cta-btn" lang="en">Start assessment</a>
   <a href="#quiz" class="cta-btn" lang="es">Iniciar evaluación</a>
+</section>
+
+<!-- ===== CULTURE MANIFESTO — Bildung H2Hcy ===== -->
+<section class="manifesto">
+  <div class="manifesto-inner">
+    <div class="manifesto-kicker">B2B &nbsp;&middot;&nbsp; B2C &nbsp;&middot;&nbsp; H2H<sup>cy</sup></div>
+    <h2>Bildung H2H<sup>cy</sup></h2>
+
+    <p class="manifesto-dek" lang="pt-BR">A doutrina de cultura da Hubstry.</p>
+    <p class="manifesto-dek" lang="en">Hubstry's culture doctrine.</p>
+    <p class="manifesto-dek" lang="es">La doctrina de cultura de Hubstry.</p>
+
+    <div class="manifesto-prose">
+      <p lang="pt-BR"><em>Bildung</em> — o ideal humanista alemão de formação integral da pessoa, de Humboldt e Goethe — nomeia o cultivo do humano como fim em si mesmo. Na era da inteligência artificial, essa formação deixa de ser ornamento e passa a ser o núcleo: é precisamente o trabalho que a automação não executa. A Hubstry resgata a <em>Bildung</em> e a resignifica para o zeitgeist atual.</p>
+      <p lang="en"><em>Bildung</em> — the German humanist ideal of integral self-formation, from Humboldt and Goethe — names the cultivation of the human as an end in itself. In the age of artificial intelligence, this formation ceases to be ornament and becomes the core: it is precisely the work that automation does not perform. Hubstry recovers <em>Bildung</em> and resignifies it for the present zeitgeist.</p>
+      <p lang="es"><em>Bildung</em> — el ideal humanista alemán de formación integral de la persona, de Humboldt y Goethe — nombra el cultivo de lo humano como fin en sí mismo. En la era de la inteligencia artificial, esa formación deja de ser ornamento y pasa a ser el núcleo: es precisamente el trabajo que la automatización no ejecuta. Hubstry rescata la <em>Bildung</em> y la resignifica para el zeitgeist actual.</p>
+
+      <p lang="pt-BR">Essa formação dá-se em dois laços. A confiança e o desenvolvimento de pessoas são <em>Human-to-Human</em>: constroem-se entre pessoas, e a máquina não entra nesse laço. O pensamento e a produção, por sua vez, são <em>cyborg</em> — dão-se em acoplamento com a máquina, seja ela analógica, digital ou quântica. Daí o nome: <em>Bildung H2Hcy</em>.</p>
+      <p lang="en">This formation unfolds across two loops. Trust and the development of people are <em>Human-to-Human</em>: built between persons, and the machine does not enter that loop. Thought and production, in turn, are <em>cyborg</em> — they occur coupled with the machine, be it analog, digital, or quantum. Hence the name: <em>Bildung H2Hcy</em>.</p>
+      <p lang="es">Esa formación se da en dos lazos. La confianza y el desarrollo de personas son <em>Human-to-Human</em>: se construyen entre personas, y la máquina no entra en ese lazo. El pensamiento y la producción, a su vez, son <em>cyborg</em> — se dan en acoplamiento con la máquina, sea analógica, digital o cuántica. De ahí el nombre: <em>Bildung H2Hcy</em>.</p>
+    </div>
+
+    <div class="manifesto-quote">
+      <blockquote lang="pt-BR">Inflexão do pensamento humano incidindo sobre o conjunto-universo dos fenômenos, instanciando-se em série e/ou paralelo em múltiplas áreas do conhecimento, em interação e iteração com a máquina, em comparação e contraste sistemáticos operados pela analogia — heurística, funcional ou homologia —, num fluxo contínuo de pesquisa, estudo, criação, ensino e produção.</blockquote>
+      <blockquote lang="en">An inflection of human thought bearing upon the whole-universe of phenomena, instantiating itself in series and/or in parallel across multiple fields of knowledge, in interaction and iteration with the machine, in systematic comparison and contrast operated by analogy — heuristic, functional, or homology — in a continuous flow of research, study, creation, teaching, and production.</blockquote>
+      <blockquote lang="es">Inflexión del pensamiento humano incidiendo sobre el conjunto-universo de los fenómenos, instanciándose en serie y/o paralelo en múltiples áreas del conocimiento, en interacción e iteración con la máquina, en comparación y contraste sistemáticos operados por la analogía — heurística, funcional u homología — en un flujo continuo de investigación, estudio, creación, enseñanza y producción.</blockquote>
+      <cite lang="pt-BR">Cognição cyborg — definição canônica</cite>
+      <cite lang="en">Cyborg cognition — canonical definition</cite>
+      <cite lang="es">Cognición cyborg — definición canónica</cite>
+    </div>
+
+    <p class="manifesto-coherence" lang="pt-BR">A máquina entra no laço da cognição; não entra no laço da confiança.</p>
+    <p class="manifesto-coherence" lang="en">The machine enters the loop of cognition; it does not enter the loop of trust.</p>
+    <p class="manifesto-coherence" lang="es">La máquina entra en el lazo de la cognición; no entra en el lazo de la confianza.</p>
+
+    <p class="manifesto-ethic" lang="pt-BR">A doutrina H2Hcy e a recusa incondicional de armas autônomas e de sistemas de vigilância de cidadãos derivam da mesma raiz — em convergência com a Anthropic, por derivação independente.</p>
+    <p class="manifesto-ethic" lang="en">The H2Hcy doctrine and the unconditional refusal of autonomous weapons and citizen-surveillance systems derive from the same root — converging with Anthropic, by independent derivation.</p>
+    <p class="manifesto-ethic" lang="es">La doctrina H2Hcy y el rechazo incondicional de armas autónomas y de sistemas de vigilancia de ciudadanos derivan de la misma raíz — en convergencia con Anthropic, por derivación independiente.</p>
+
+    <div class="manifesto-lineage">
+      <p lang="pt-BR"><strong>Linhagem:</strong> Humboldt e Goethe (<em>Bildung</em>) · Schein, Argyris e Schön (cultura como prática, não declaração) · <abbr title="Múltipla Instanciação Integrada do Pensamento">IMIP</abbr>, <abbr title="Teoria da Inflexão Cognitiva Analógica">TICA</abbr> e <abbr title="Programação Comparada">ProCP</abbr>&ndash;<abbr title="Teoria da Analogia como Operador Trans-Sistêmico">TATS</abbr> (corpus científico Hubstry).</p>
+      <p lang="en"><strong>Lineage:</strong> Humboldt and Goethe (<em>Bildung</em>) · Schein, Argyris and Schön (culture as practice, not declaration) · <abbr title="Multiple Integrated Instantiation of Thought">IMIP</abbr>, <abbr title="Theory of Analogical Cognitive Inflection">TICA</abbr> and <abbr title="Comparative Programming">ProCP</abbr>&ndash;<abbr title="Theory of Analogy as a Trans-Systemic Operator">TATS</abbr> (Hubstry scientific corpus).</p>
+      <p lang="es"><strong>Linaje:</strong> Humboldt y Goethe (<em>Bildung</em>) · Schein, Argyris y Schön (cultura como práctica, no declaración) · <abbr title="Múltiple Instanciación Integrada del Pensamiento">IMIP</abbr>, <abbr title="Teoría de la Inflexión Cognitiva Analógica">TICA</abbr> y <abbr title="Programación Comparada">ProCP</abbr>&ndash;<abbr title="Teoría de la Analogía como Operador Trans-Sistémico">TATS</abbr> (corpus científico Hubstry).</p>
+    </div>
+  </div>
 </section>
 
 <!-- ===== COMPLIANCE BANNER ===== -->
